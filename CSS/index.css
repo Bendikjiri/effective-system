@@ -1,18 +1,22 @@
 @media(max-width: 320px) {
   .container_home_page {
-    display: grid;
     grid-template-columns: 100%;
-    grid-auto-rows: minmax(50px, auto);
+    grid-template-rows: auto;
     grid-template-areas:
       "nb"
       "po"
+      "ft"
       "ft"
   }
 
   .posts_grid {
     display: grid;
-    grid-template-columns: 1;
-    grid-template-rows: 50% 50%;
+    grid-template-columns: 100%;
+    grid-template-rows: 1;
+  }
+
+  .footer {
+
   }
 }
 
@@ -36,6 +40,11 @@
   }
 }
 
+.blog_post_card {
+  padding: 10px;
+}
+
+
 .box {
   border: 1px solid red;
   background: #F8FA9D;
@@ -56,4 +65,7 @@
 .front_image {
   width: 90%;
   border: 1px solid black;
+}
+h2 {
+  text-align: center;
 }
