@@ -1,39 +1,47 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Blog homepage</title>
-    <meta name="description" content="My personal blog" />
-    <link rel="icon" href="IMG/icon1.jpg">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  </head>
-  <body>
-    <div class="navbar">
+
+<head>
+  <meta charset="utf-8">
+  <title>Blog homepage</title>
+  <meta name="description" content="My personal blog" />
+  <link rel="icon" href="IMG/icon1.jpg">
+  <link rel="stylesheet" type="text/css" href="CSS/master.css">
+</head>
+
+<body>
+  <div class="container_home_page">
+    <div class="navbar box">
       <h1 class="homepage_header">Best cat blog ever</h1>
       <a href="index.html">homepage</a>
       <a href="https://www.linkedin.com/in/jiri-bendik/" target="_blank">My LinkedIn</a>
     </div>
-    <div class="blog_post_card">blog_post_card section
-      <div class="card">Card</div>
-      <div class="image">Image</div>
-      <a href="post.html#article_one" class="buttons"><button>Read fake article!</button></a>
+    <div class="posts box">
+      <div class="posts_grid">
+        <div class="blog_post_card">blog_post_card section
+          <div class="card">Card</div>
+          <img class="front_image"src="IMG\black_cat.jpg" alt="black cat">
+          <a href="post.html#article_one" class="buttons"><button>Read fake article!</button></a>
+        </div>
+        <div class="blog_post_card">blog_post_card section2
+          <div class="card">Card</div>
+          <img class="front_image"src="IMG\white_cat.jpg" alt="white cat">
+          <a href="post.html#article_two" class="buttons"><button>Second article!</button></a>
+        </div>
+        <div class="blog_post_card">blog_post_card section3
+          <div class="card">Card</div>
+          <img class="front_image"src="IMG\mix_cat.jpg" alt="colorful cat">
+          <a href="post.html#article_three" class="buttons"><button>The last one!</button></a>
+        </div>
       </div>
-    <div class="blog_post_card">blog_post_card section2
-      <div class="card">Card</div>
-      <div class="image">Image</div>
-      <a href="post.html#article_two" class="buttons"><button>Second article!</button></a>
     </div>
-    <div class="blog_post_card">blog_post_card section3
-      <div class="card">Card</div>
-      <div class="image">Image</div>
-      <a href="post.html#article_three" class="buttons"><button>The last one!</button></a>
-    </div>
-    <div class="footer">
+    <div class="footer box">
       <a href="https://www.facebook.com/Udacity/" class="fa fa-facebook" target="_blank"></a>
       <a href="https://twitter.com/udacity/" class="fa fa-twitter" target="_blank"></a>
       <a href="https://www.linkedin.com/school/udacity/" class="fa fa-linkedin" target="_blank"></a>
       <a href="mailto:jirka@no-real-domain.com" class="fa fa-envelope" target="_blank"></a>
     </div>
-  </body>
+  </div>
+</body>
 
 </html>
