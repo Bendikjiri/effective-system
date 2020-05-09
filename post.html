@@ -1,65 +1,75 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Blog Post</title>
-    <meta name="description" content="My personal blog - post" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  </head>
-  <body>
-    <div class="navbar">
-      <a href="index.html">homepage</a>
-      <a href="https://www.linkedin.com/in/jiri-bendik/" target="_blank">My LinkedIn</a>
+
+<head>
+  <meta charset="utf-8">
+  <title>Blog Post</title>
+  <meta name="description" content="My personal blog - post" />
+  <link rel="icon" href="IMG/icon1.jpg">
+  <link rel="stylesheet" type="text/css" href="CSS/master.css">
+</head>
+
+<body>
+  <div class="container_home_page">
+    <div class="navbar box">
+      <h1 class="homepage_header">Best cat blog ever</h1>
+      <a href="index.html" class="nav_bar">homepage</a>
+      <a href="https://www.linkedin.com/in/jiri-bendik/" class="nav_bar" target="_blank">My LinkedIn</a>
     </div>
-    <h1 class="post_header">About author</h1>
-    <div class="author_info">
-      <img src="img/avatar.png" alt="my avatar">
-      <p>
+    <div class="about_author">
+      <h2 class="post_header">About author</h2>
+      <img src="IMG\avatar.png" alt="man avatar" id="avatar_photo">
+      <div class="author_info">
+        <p>
         <ul>
           <li>Jirka</li>
           <li>Onbee</li>
           <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             Pellentesque at iaculis nibh, sit amet vestibulum ipsum. </li>
         </ul>
-      </p>
+        </p>
+      </div>
     </div>
-    <div class="article">
-      <h2 id="article_one">Black cat</h2>
-      <img src="img/black_cat.jpg" alt="black cat">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tempus
-         dui ipsum, tempus luctus augue gravida id. Proin maximus dolor est,
-         nec molestie elit porta condimentum. Ut aliquam congue arcu, non
-         ultrices ipsum fermentum eget. Nunc libero libero, vestibulum vitae
-         lobortis et, mattis nec arcu. Phasellus vitae quam in felis semper
-         dictum. Aenean maximus volutpat erat, sed condimentum massa.</p>
-    </div>
-    <div class="article">
-      <h2 id="article_two">Black cat</h2>
-      <img src="img/white_cat.jpg" alt="white cat">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tempus
-         dui ipsum, tempus luctus augue gravida id. Proin maximus dolor est,
-         nec molestie elit porta condimentum. Ut aliquam congue arcu, non
-         ultrices ipsum fermentum eget. Nunc libero libero, vestibulum vitae
-         lobortis et, mattis nec arcu. Phasellus vitae quam in felis semper
-         dictum. Aenean maximus volutpat erat, sed condimentum massa.</p>
-    </div>
-    <div class="article">
-      <h2 id="article_three">Black cat</h2>
-      <img src="img/mix_cat.jpg" alt="color cat">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tempus
-         dui ipsum, tempus luctus augue gravida id. Proin maximus dolor est,
-         nec molestie elit porta condimentum. Ut aliquam congue arcu, non
-         ultrices ipsum fermentum eget. Nunc libero libero, vestibulum vitae
-         lobortis et, mattis nec arcu. Phasellus vitae quam in felis semper
-         dictum. Aenean maximus volutpat erat, sed condimentum massa.</p>
+
+    <div class="articles">
+      <div class="article">
+        <h3 id="article_one">Black cat</h3>
+        <img src="img/black_cat.jpg" alt="black cat" class="image">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tempus
+          dui ipsum, tempus luctus augue gravida id. Proin maximus dolor est,
+          nec molestie elit porta condimentum. Ut aliquam congue arcu, non
+          ultrices ipsum fermentum eget. Nunc libero libero, vestibulum vitae
+          lobortis et, mattis nec arcu. Phasellus vitae quam in felis semper
+          dictum. Aenean maximus volutpat erat, sed condimentum massa.</p>
+      </div>
+      <div class="article">
+        <h3 id="article_two">White cat</h3>
+        <img src="img/white_cat.jpg" alt="white cat" class="image">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tempus
+          dui ipsum, tempus luctus augue gravida id. Proin maximus dolor est,
+          nec molestie elit porta condimentum. Ut aliquam congue arcu, non
+          ultrices ipsum fermentum eget. Nunc libero libero, vestibulum vitae
+          lobortis et, mattis nec arcu. Phasellus vitae quam in felis semper
+          dictum. Aenean maximus volutpat erat, sed condimentum massa.</p>
+      </div>
+      <div class="article">
+        <h3 id="article_three">Color cat</h3>
+        <img src="img/mix_cat.jpg" alt="color cat" class="image">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tempus
+          dui ipsum, tempus luctus augue gravida id. Proin maximus dolor est,
+          nec molestie elit porta condimentum. Ut aliquam congue arcu, non
+          ultrices ipsum fermentum eget. Nunc libero libero, vestibulum vitae
+          lobortis et, mattis nec arcu. Phasellus vitae quam in felis semper
+          dictum. Aenean maximus volutpat erat, sed condimentum massa.</p>
+      </div>
     </div>
     <div class="footer">
-      <a href="https://www.facebook.com/Udacity/" class="fa fa-facebook" target="_blank"></a>
-      <a href="https://twitter.com/udacity/" class="fa fa-twitter" target="_blank"></a>
-      <a href="https://www.linkedin.com/school/udacity/" class="fa fa-linkedin" target="_blank"></a>
-      <a href="mailto:jirka@no-real-domain.com" class="fa fa-envelope" target="_blank"></a>
+      <a href="https://www.facebook.com/Udacity/" class="fa fa-facebook fa-3x" target="_blank"></a>
+      <a href="https://twitter.com/udacity/" class="fa fa-twitter fa-3x" target="_blank"></a>
+      <a href="https://www.linkedin.com/school/udacity/" class="fa fa-linkedin fa-3x" target="_blank"></a>
+      <a href="mailto:jirka@no-real-domain.com" class="fa fa-envelope fa-3x" target="_blank"></a>
     </div>
+  </div>
+</body>
 
-
-  </body>
 </html>

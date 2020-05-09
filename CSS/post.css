@@ -1,0 +1,63 @@
+@media(max-width: 320px) {
+  .container_post_page {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "nb"
+    "aut"
+    "artic"
+    "fo"
+
+  }
+
+}
+
+.articles {
+  grid-area: artic;
+}
+
+  .article {
+    border: 1px solid blu;
+    background: lightblue;
+  }
+
+  .navbar {
+    grid-area: nb;
+  }
+
+  .about_author {
+    grid-area: aut;
+    display: grid;
+    grid-template-areas:
+    "avat" "aut_inf"
+
+  }
+
+  .footer {
+    grid-area: fo;
+  }
+
+  .image {
+    width: 90%;
+    border: 1px solid black;
+  }
+
+  .author_info {
+    border: 1px solid blu;
+    background: #F8F8FF;
+    grid-area: aut_inf;
+    width: 50%
+  }
+
+  #avatar_photo {
+    grid-area: avat;
+    width: 50%;
+  }
+
+  h3 {
+    color: #008B8B;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-style: italic;
+  }
