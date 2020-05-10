@@ -8,16 +8,20 @@
   }
 }
 
+@media(min-width: 321px) and (max-width: 900px) {
+  body {
+    background-color: lightgrey;
+  }
+}
+
 @media(min-width: 901px) {
   body {
     background-color: lightgreen;
   }
 }
 
-@media(min-width: 321px) and (max-width: 900px) {
-  body {
-    background-color: lightgrey;
-  }
+body{
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
@@ -55,6 +59,13 @@ button {
 }
 
 .footer {
-  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+  border: 1px solid white;
+  background: #FFB6C1;
+}
 
+.company{
+  font-weight: bold;
+  font-style: italic;
 }
